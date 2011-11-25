@@ -1,7 +1,7 @@
 # SLIDR v0.1
 
 "A jQuery image and HTML animated slider using grid based transitions"
-By Chris Finch (chrisfinchy@gmail.com) for Hovr
+By Hovr (info@hovr.co)
 
 ### License 
 
