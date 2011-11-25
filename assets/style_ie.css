@@ -1,0 +1,66 @@
+/*
+
+Style_ie.css, Custom Internet Explorer CSS file for Nicola Benedetti
+
+@Author: Chris Finch for Hovr
+@Email: chrisfinchy@gmail.com
+@Website: www.hovr.co
+@Date: 22/08/2011
+
+------------------------------------------------------------------- */
+
+.newAlbum h4 {
+	width: 220px;
+}
+
+h1, h2, h3, h4, h5 {
+	letter-spacing: 0 !important;
+}
+
+#newsletter #email {
+	width: 178px !important;
+}
+
+div.leftContent {
+	padding-bottom: 30px;
+}
+
+p.excerpt {
+	float: left;
+	width: 100%;
+}
+
+.news-large {
+	padding-bottom: 50px;
+}
+
+.diary-large ul li {
+	width: 464px;
+}
+
+.news-open-large,
+.reviews-open-large {
+	width: 464px;
+}
+
+.news-open-large p,
+.reviews-open-large p {
+	width: 100%;
+}
+
+.pager ul {
+	width: 140px;
+}
+
+.reviews-large {
+	padding-bottom: 70px !important;
+}
+
+.reviews-open-page article {
+	padding-bottom: 30px;
+}
+
+/* Fallback to account for IE not supporting css3 glow/shadow effects */
+ul li a:hover {
+	text-decoration: underline;
+}

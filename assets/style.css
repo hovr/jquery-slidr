@@ -1,0 +1,113 @@
+/*
+
+Style.css, Custom CSS file slidr.js demonstration page
+
+@Author: Chris Finch for Hovr
+@Email: chrisfinchy@gmail.com
+@Website: www.hovr.co
+@Date: 22/08/2011
+
+------------------------------------------------------------------- */
+
+body {
+    background: url("img/linen.jpg") repeat scroll center top #fff;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#carousel-1,
+#carousel-2 {
+	margin: 100px auto;
+	width: 960px;
+	height: 480px;
+	overflow: hidden;
+	position:relative;
+	-moz-box-shadow: 0 0 20px #919191;
+	-webkit-box-shadow: 0 0 20px #919191;
+	box-shadow: 0 0 20px #919191;
+}
+
+.carousel li { 
+	position:absolute; 
+	left:0; 
+	top:0; 
+}
+
+.carousel h1 {
+	top: 20px;
+	left: 20px;
+	position: absolute;
+	color: #fff;
+	font-size: 80px;
+	font-family: Helvetica;
+	z-index: 1;
+}
+
+.carousel h2 {
+	top: 100px;
+	left: 20px;
+	position: absolute;
+	color: #fff;
+	font-size: 50px;
+	z-index: 1;
+}
+
+.slidr-ui { 
+	display:block; 
+	width:40px; 
+	height:40px; 
+	border:3px solid #fff; 
+	border-radius:25px; 
+	position:absolute; 
+	top:210px; 
+	z-index:9999; 
+	color:#fff; 
+	background-color:#000; 
+	outline:none; 
+	text-decoration:none; 
+	text-align:center; 
+	font:50px/30px Georgia; 
+}
+
+#prev { 
+	left:5px; 
+}
+
+#next { 
+	left:909px; 
+}
+
+#transitions { 
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	overflow:hidden; 
+}
+
+#transitions div { 
+	position:absolute; 
+}
+
+.switch {
+	margin: 30px auto;
+	width: 168px;
+}
+
+.switch a {
+	font-family: Helvetica;
+	color: #fff;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.switch a.active {
+	font-family: Helvetica;
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
+}
